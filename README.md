@@ -20,47 +20,66 @@ We used **Python-Telegram-Bot v20.6** and a little bit of **Pyrogram**.
 
 ---
 
-## 🎭 How To Upload Characters?
-
-Format:
+Use rarity number accordingly:
 
 | Number | Rarity     |
-| ------ | -----------|
-| 1 | ⚪️ Common   |
-| 2 | 🟣 Rare     |
-| 3 | 🟡 Legendary|
-| 4 | 🟢 Medium   |
+|--------|------------|
+| 1      | ⚪️ Common |
+| 2      | 🟣 Rare   |
+| 3      | 🟡 Legendary |
+| 4      | 🟢 Medium |
 
+---
 
-## USER COMMANDS
-- `/guess` - Guess the character
-- `/fav` - Add a character to favorites
-- `/trade` - Trade a character with another user
-- `/gift` - Gift a character to another user
-- `/collection` - Boast your harem collection
-- `/topgroups` - List the groups with biggest harem (globally)
-- `/top` - List the users with biggest harem (globally)
-- `/ctop` - List the users with biggest harem (current chat)
-- `/changetime` - Change the frequency of character spawn
-  
-## SUDO USER COMMANDS..
-- `/upload` - Add a new character to the database 
-- `/delete` - Delete a character from the database 
-- `/update` - Update stats of a character in the database 
+## 👥 User Commands
+- `/guess` - Guess the character  
+- `/fav` - Add a character to favorites  
+- `/trade` - Trade a character with another user  
+- `/gift` - Gift a character to another user  
+- `/collection` - Boast your harem collection  
+- `/topgroups` - List the groups with biggest harem (globally)  
+- `/top` - List the users with biggest harem (globally)  
+- `/ctop` - List the users with biggest harem (current chat)  
+- `/changetime` - Change the frequency of character spawn  
 
-## OWNER COMMANDS
-- `/ping` - Pings the bot and sends a response
-- `/stats` - Lists number or groups and users
-- `/list` - Sends a document with list of all users that used the bot
-- `/groups` - Sends a document with list of all groups that the bot has been in
+---
 
-## DEPLOYMENT METHODS
+## 🔧 Sudo User Commands
+- `/upload` - Add a new character to the database  
+- `/delete` - Delete a character from the database  
+- `/update` - Update stats of a character in the database  
 
-### Heroku
-- Fork The Repository
-- Go to [`config.py`](./shivu/config.py)
-- Fill the All variables and Go to heroku. and deploy Your forked Repository
+---
 
+## 👑 Owner Commands
+- `/ping` - Pings the bot and sends a response  
+- `/stats` - Lists number of groups and users  
+- `/list` - Sends a document with list of all users that used the bot  
+- `/groups` - Sends a document with list of all groups that the bot has been in  
+
+---
+
+## 🚀 Deployment Methods
+
+### 🔹 Deploy to Heroku (Easy)
+
+1. Click the button below to deploy directly on **Heroku**:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/<YourUsername>/WAIFU-HUSBANDO-CATCHER)
+
+2. After deployment, open your Heroku app → **Settings** → **Config Vars** and add the following:
+
+| Variable Name  | Example Value | Description |
+|----------------|---------------|-------------|
+| `BOT_TOKEN`    | `123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11` | Bot token from BotFather |
+| `API_ID`       | `1234567` | Telegram API ID (from [my.telegram.org](https://my.telegram.org)) |
+| `API_HASH`     | `abcdef1234567890abcdef1234567890` | Telegram API hash |
+| `GROUP_ID`     | `-1001234567890` | Numeric group ID where bot works |
+| `DATABASE_URL` | `postgres://...` | Postgres DB URL (Heroku Postgres addon) |
+
+3. Scale your worker:
+```bash
+heroku ps:scale worker=1
 ### Local Deploy/VPS
 - Fill variables in [`config.py`](./shivu/config.py) 
 - Open your VPS terminal (we're using Debian based) and run the following:

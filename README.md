@@ -1,37 +1,28 @@
 ![Image](https://graph.org/file/9901c2070cea11d1aa194.jpg)
 
-## WAIFU & HUSBANDO CATCHER 
-
+# WAIFU & HUSBANDO CATCHER 
 
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)<br> [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)<br>
 [![Support Group!](https://img.shields.io/badge/Join%20Group-↗-green)](https://t.me/collect_em_support)
 
-
 _**Available On Telegram As 
-[Collect Em all](https://t.me/Collect_em_AllBot) and**_
+[Collect Em all](https://t.me/Collect_em_AllBot) and**_  
 _Ask for Help in our [Support Chat](https://t.me/Collect_em_support)_
 
-## About The Repository
-● This is an Open Source Implementation of Character Catcher Bot for Telegram
-- For Example, Grab/Hunt/Protecc/Collect etc.. These Types of Bot You must have seen it on your telegram groups..
-- This bot sends characters in group after every 100 Messages Of Groups Then any user can Guess that character's Name Using /guess Command.
+---
 
-- Now you can also deploy this type of bot. Using our source, we've used Python-Telegram-Bot V20.6 and Also lil bit Pyrogram. Enjoy!
+## 📖 About The Repository
+● This is an Open Source Implementation of Character Catcher Bot for Telegram.  
+● For Example, Grab/Hunt/Protecc/Collect etc.. These Types of Bot you must have seen it on your telegram groups..  
+● This bot sends characters in group after every 100 Messages Of Groups. Then any user can guess that character's Name using `/guess` Command.  
 
-## HOW TO UPLOAD CHARACTERS?
+We used **Python-Telegram-Bot v20.6** and a little bit of **Pyrogram**.  
 
-Format: 
-```
-/upload img_url character-name anime-name rarity-number
-```
-#### Example: 
-```
-/upload Img_url muzan-kibutsuji Demon-slayer 3
-```
+---
 
+## 🎭 How To Upload Characters?
 
-
-use Rarity Number accordingly rarity Map
+Format:
 
 | Number | Rarity     |
 | ------ | -----------|

@@ -11,10 +11,10 @@ class Config(object):
         "https://telegra.ph/file/b925c3985f0f325e62e17.jpg",
         "https://telegra.ph/file/4211fb191383d895dab9d.jpg"
     ]
-    SUPPORT_CHAT = "Collect_em_support"
-    UPDATE_CHAT = "Collect_em_support"
-    BOT_USERNAME = "Collect_Em_AllBot"
-    CHARA_CHANNEL_ID = "-1002133191051"
+    SUPPORT_CHAT = "ganaasupport"
+    UPDATE_CHAT = "ganaasupport"
+    BOT_USERNAME = "KHUSIGUPTAA_ROBOT"
+    CHARA_CHANNEL_ID = "-1003096447669"
     api_id = 26626068
     api_hash = "bf423698bcbe33cfd58b11c78c42caa2"
 
